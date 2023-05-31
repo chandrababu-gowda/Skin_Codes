@@ -27,31 +27,43 @@
   width: min(800px, 100%);
   margin: 2rem auto;
   background-color: var(--light-blue);
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  padding: 2rem;
   border-radius: 1rem;
+  /* border: var(--bor1); */
 }
 
 .about__doctor-information__image {
-  /* border: var(--bor1); */
-  padding: 1rem 1rem 0rem 1rem;
-  background-color: var(--dark-blue);
+  /* border-radius: 1rem; */
+  width: 50%;
+}
+
+.about__doctor-information__image img {
   border-radius: 1rem;
 }
 
 .about__doctor-information__content {
-  /* border: var(--bor2); */
-  padding: 1rem 5rem;
+  padding: 2rem;
+  width: 50%;
 }
 
-.about__doctor-information__content h3 {
-  font-size: 2rem;
-  font-weight: 600;
+.about__doctor-information__content__panaroma-text {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.35rem;
+  font-weight: 700;
   color: var(--dark-blue);
-  margin-bottom: 1rem;
 }
 
-.about__doctor-information__content p {
-  text-align: justify;
+.about__doctor-information__content h2 {
+  font-family: "Calistoga", cursive;
+  font-size: 3.5rem;
+  color: var(--dark-blue);
+}
+
+.about__doctor-information__content__profession {
+  font-size: 1.25rem;
+}
+
+.about__doctor-information__content__signature {
+  font-family: "Calistoga", cursive;
+  font-size: 2rem;
 }
