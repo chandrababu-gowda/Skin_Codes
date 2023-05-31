@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+/* 
+font-family: 'Calistoga', cursive;
+font-family: 'Nunito', sans-serif;
+ */
+
+:root {
+  --bor1: 2px solid red;
+  --bor2: 2px solid green;
+  --black: #1c1c1e;
+  --dark-blue: #057b9e;
+  --light-blue: #f4feff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  color: var(--black);
+  font-family: "Nunito", sans-serif;
+  scroll-behavior: smooth;
+}
+
+img {
+  /* object-fit: contain; */
+  width: 100%;
+}
+
+.container {
+  width: min(100%, 1280px);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+hr {
+  width: 20rem;
+  border: 2px solid var(--dark-blue);
+  border-radius: 1rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+.section__cards-box {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 1.8rem;
+}
+
+.section__card-border-shadow {
+  box-shadow: 1px 1px 25px 5px var(--light-blue);
+  border-radius: 1rem;
+  border: 2px solid #057a9e44;
+}
+
+.section__heading {
+  gap: 1.5rem;
+}
+
+.section__heading__primary,
+.section__heading__secondary {
+  width: 100%;
+}
+
+.section__heading__primary {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 600;
+}
+
+.section__heading__secondary__main {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.section__heading__secondary__s-main {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  font-weight: 400;
+}

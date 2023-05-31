@@ -1,0 +1,57 @@
+/* About Section */
+
+.about {
+  padding: 0;
+}
+
+.about-bg {
+  background-color: var(--dark-blue);
+  color: var(--light-blue);
+  padding: 4rem;
+}
+
+.about__results {
+  justify-content: space-around;
+  text-align: center;
+}
+
+.about__results__box h3 {
+  font-size: 3rem;
+}
+
+.about__results__box p {
+  font-size: 1.5rem;
+}
+
+.about__doctor-information {
+  width: min(800px, 100%);
+  margin: 2rem auto;
+  background-color: var(--light-blue);
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.about__doctor-information__image {
+  /* border: var(--bor1); */
+  padding: 1rem 1rem 0rem 1rem;
+  background-color: var(--dark-blue);
+  border-radius: 1rem;
+}
+
+.about__doctor-information__content {
+  /* border: var(--bor2); */
+  padding: 1rem 5rem;
+}
+
+.about__doctor-information__content h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--dark-blue);
+  margin-bottom: 1rem;
+}
+
+.about__doctor-information__content p {
+  text-align: justify;
+}

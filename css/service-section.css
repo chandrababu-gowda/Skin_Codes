@@ -1,0 +1,32 @@
+/* Service section */
+
+.section__cards-box {
+  margin-top: 3rem;
+}
+
+.services__card {
+  /* border: var(--bor2); */
+  padding: 2rem;
+}
+
+.services__card__name-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.services__card__name-title h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.services__card__name-title__image {
+  width: 2rem;
+  height: 2rem;
+  /* border: var(--bor1); */
+}
+
+.services__card__paragraph {
+  margin-top: 0.75rem;
+  text-align: justify;
+}

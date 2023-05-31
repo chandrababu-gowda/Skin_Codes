@@ -1,0 +1,90 @@
+/* Video Section */
+
+.videos {
+  gap: 2rem;
+}
+
+.videos__video-box {
+  width: 60%;
+}
+.videos__content {
+  width: 40%;
+}
+
+.videos__video-box {
+  /* width: 50%; */
+  height: 30rem;
+  /* border: var(--bor1); */
+  display: flex;
+  padding: 2rem;
+  background-color: var(--light-blue);
+  border-radius: 1rem;
+}
+
+.videos__video-box__video {
+  border-radius: 1rem;
+  /* border: var(--bor2); */
+  width: 100%;
+  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.videos__video-box__video--1 {
+  background: url("../images/video/treatment1.png") no-repeat;
+}
+.videos__video-box__video--2 {
+  background: url("../images/video/treatment2.png") no-repeat;
+}
+
+.videos__video-box__video a {
+  /* border: var(--bor1); */
+  padding: 0.75rem 2rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  background-color: var(--light-blue);
+  font-weight: 600;
+  color: var(--dark-blue);
+}
+
+.videos__video-box__video a:hover {
+  background-color: var(--dark-blue);
+  color: var(--light-blue);
+  transition: background-color 200ms;
+}
+
+.videos__content__panaroma-text {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.35rem;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.videos__content h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.videos__content__paragraph {
+  width: 60%;
+}
+
+.videos__content a {
+  display: inline-block;
+  border: 2px solid var(--dark-blue);
+  color: var(--dark-blue);
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+}
+
+.videos__content a:hover {
+  color: var(--light-blue);
+  background-color: var(--dark-blue);
+  transition: background-color 200ms;
+}

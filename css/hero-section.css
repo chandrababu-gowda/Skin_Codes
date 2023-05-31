@@ -1,0 +1,65 @@
+/* Hero section */
+
+.hero__bg {
+  background: linear-gradient(
+    110deg,
+    var(--light-blue) 60%,
+    var(--dark-blue) 40%
+  );
+}
+
+.hero-section {
+  padding: 0;
+}
+
+.hero-section__content {
+  width: 50%;
+  /* border: var(--bor2); */
+  /* padding: 8rem 0; */
+}
+
+.hero-section__content__primary-heading {
+  font-family: "Calistoga", cursive;
+  font-size: 6rem;
+  line-height: 6.25rem;
+  color: var(--dark-blue);
+}
+
+.hero-section__content__secondary-heading {
+  margin: 1.5rem 0;
+  color: var(--dark-blue);
+}
+
+.hero-section__content__buttons a {
+  /* border: var(--bor1); */
+  padding: 0.5rem 3rem;
+  margin-right: 1rem;
+  /* margin-top: 2rem; */
+}
+
+.hero-section__content__buttons__call {
+  border: 2px solid var(--dark-blue);
+  color: var(--light-blue);
+  border-radius: 0.75rem;
+  background-color: var(--dark-blue);
+  font-weight: 700;
+}
+
+.hero-section__content__buttons__call:hover {
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+  transition: background-color 150ms;
+}
+
+.hero-section__content__buttons__appointment {
+  border: 2px solid var(--dark-blue);
+  color: var(--dark-blue);
+  border-radius: 0.75rem;
+  font-weight: 700;
+}
+
+.hero-section__content__buttons__appointment:hover {
+  background-color: var(--dark-blue);
+  color: var(--light-blue);
+  transition: background-color 150ms;
+}

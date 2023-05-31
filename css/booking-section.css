@@ -1,0 +1,89 @@
+/* Booking Section */
+
+.booking__appointment,
+.booking__offer {
+  width: min(800px, 100%);
+  margin: 0 auto;
+  /* border: var(--bor1); */
+  background-color: var(--light-blue);
+}
+
+.booking__appointment h1,
+.booking__offer__content h1 {
+  font-size: 3rem;
+  color: var(--dark-blue);
+}
+
+.booking__appointment__form-time {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, auto);
+  margin-top: 1rem;
+}
+
+.booking__appointment {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.booking__appointment__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: var(--bor2); */
+}
+
+.booking__appointment__form__btn {
+  width: 10rem;
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  color: var(--light-blue);
+  background-color: var(--dark-blue);
+  border-radius: 0.5rem;
+  border: 2px solid var(--dark-blue);
+  font-size: 1.1rem;
+}
+
+.booking__appointment__time {
+  /* border: var(--bor2); */
+  background-color: var(--dark-blue);
+  color: var(--light-blue);
+  border-radius: 1rem;
+  padding: 2rem 4rem;
+}
+
+.booking__appointment__form__input,
+.booking__offer__form input {
+  padding: 0.5rem 2rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid var(--dark-blue);
+  background-color: var(--light-blue);
+  font-size: 1.1rem;
+}
+
+.booking__offer__form input {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.booking__offer {
+  padding: 2rem;
+}
+
+.booking__offer__btn {
+  padding: 0.5rem 1rem;
+  margin-left: -1.4rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  color: var(--light-blue);
+  background-color: var(--dark-blue);
+  border: 2px solid var(--dark-blue);
+  font-size: 1.1rem;
+}
+
+.booking__offer__btn:hover,
+.booking__appointment__form__btn:hover {
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+  transition: background-color 200ms;
+}

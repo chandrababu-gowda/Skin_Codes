@@ -1,0 +1,25 @@
+/* Review Section */
+
+.reviews__card {
+  /* border: var(--bor2); */
+  padding: 2rem;
+}
+
+.reviews__card__patient-name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.reviews__card__stars {
+  margin-bottom: 0.5rem;
+}
+
+.reviews__card__star {
+  width: 2rem;
+  height: 2rem;
+}
+
+.reviews__card p {
+  text-align: justify;
+}
