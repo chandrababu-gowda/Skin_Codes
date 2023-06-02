@@ -64,6 +64,9 @@
 .booking__appointment__time__day {
   gap: 1rem;
   margin: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .booking__appointment__form__input,

@@ -1,0 +1,186 @@
+@media (max-width: 600px) {
+  /* Default */
+  .row {
+    flex-direction: column;
+  }
+
+  html {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 4rem 1rem;
+  }
+
+  .section__cards-box {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 1.8rem;
+  }
+
+  .section__heading__primary {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+  }
+
+  .section__heading__secondary__main {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .section__heading__secondary__s-main {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
+  }
+
+  /* Navbar Section */
+  .navbar__links {
+    display: none;
+  }
+
+  /* Hero Section */
+
+  .hero__bg {
+    background: linear-gradient(
+      180deg,
+      var(--light-blue) 75%,
+      var(--dark-blue) 25%
+    );
+  }
+
+  .hero-section__content {
+    width: 100%;
+    padding: 0rem 1rem;
+    margin: 8rem 0;
+  }
+
+  .hero-section__content__primary-heading {
+    font-size: 4rem;
+    line-height: 4rem;
+    /* letter-spacing: 0.08rem; */
+    padding: 0rem;
+    font-weight: 550;
+  }
+
+  .hero-section__content__buttons {
+    display: flex;
+    gap: 1rem;
+    /* width: 50%; */
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    /* border: var(--bor1); */
+  }
+
+  /* Service Section */
+
+  /* Review Section */
+
+  /* Video Section */
+
+  .videos__video-box,
+  .videos__content {
+    width: 100%;
+  }
+
+  .videos__video-box {
+    padding: 1rem 0;
+    /* gap: 0.5rem; */
+  }
+
+  .videos__video-box__video a {
+    padding: 1rem 3vw;
+  }
+
+  .videos__content__paragraph {
+    width: 100%;
+  }
+
+  /* About Section */
+
+  .about__results__box {
+    margin: 1.5rem 0;
+  }
+
+  .about__doctor-information__image,
+  .about__doctor-information__content {
+    width: 80%;
+  }
+
+  .about__doctor-information__content h2 {
+    font-size: 2.5rem;
+  }
+
+  /* Appointment Section */
+
+  .booking__appointment__form-time {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, auto);
+    margin-top: 1rem;
+  }
+
+  .booking__appointment__time {
+    padding: 0;
+    margin: 2rem 0 0 0;
+  }
+
+  .booking__appointment__time > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: var(--bor1); */
+    padding: 1.5rem 4rem;
+  }
+
+  .booking__appointment__time__day {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    gap: 0;
+    margin: 0;
+  }
+
+  .booking__offer__form {
+    display: flex;
+    padding: 1rem 0;
+  }
+
+  .booking__offer__form input {
+    width: 65%;
+  }
+  .booking__offer__btn {
+    width: 35%;
+  }
+
+  .booking__offer__form input,
+  .booking__offer__btn {
+    margin: 0;
+  }
+
+  /* Gallery Section */
+
+  .image-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .image-main__primary,
+  .image-main__secondary {
+    width: 100%;
+    padding: 0rem;
+  }
+
+  /* Footer Section */
+  .footer {
+    padding: 2rem 0;
+  }
+  .footer__extra-links a {
+    margin: 1rem 0rem;
+    padding: 0 0.25rem;
+  }
+}
